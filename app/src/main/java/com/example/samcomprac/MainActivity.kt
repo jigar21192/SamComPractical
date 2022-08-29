@@ -1,5 +1,6 @@
 package com.example.samcomprac
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.activity.viewModels
@@ -35,9 +36,9 @@ class MainActivity : AppCompatActivity() {
         binding.rvData.adapter = DataAdapter(this, dataList,object :DataAdapter.OnClickListener{
             override fun onClick(position: Int) {
 
-//                startActivity(
-//                    Intent(this@MainActivity,DetailsActivity::class.java)
-//                    .putExtra("data",dataList[position]))
+                startActivity(
+                    Intent(this@MainActivity,DetailsActivity::class.java)
+                    .putExtra("data",dataList[position]))
             }
         })
 

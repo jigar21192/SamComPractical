@@ -6,4 +6,6 @@
     <string name="name">Name :</string>
     <string name="price">Price:</string>
     <string name="stock_quantity">Stock Quantity:</string>
+    <string name="short_description">Short Description:</string>
+    <string name="full_description">Full Description:</string>
 </resources>
