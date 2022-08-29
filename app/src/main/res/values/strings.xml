@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SamComPrac</string>
+
+    <string name="alert">Alert</string>
+    <string name="some_wrong">Something wrong!</string>
+    <string name="name">Name :</string>
+    <string name="price">Price:</string>
+    <string name="stock_quantity">Stock Quantity:</string>
+</resources>
